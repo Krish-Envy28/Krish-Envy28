@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1000 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ASCII art — Creation of Adam hands with PROJECT.EXE window">
+  <style>
+    :root { --bone: #DDDDDD; --muted: #777777; --dim: #666666; --rule: #444444; --accent: #AAAAAA; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .reveal { opacity: 0; animation: reveal .6s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    .d1{animation-delay:.1s} .d2{animation-delay:.2s} .d3{animation-delay:.3s} .d4{animation-delay:.4s}
+    .d5{animation-delay:.5s} .d6{animation-delay:.6s} .d7{animation-delay:.7s} .d8{animation-delay:.8s}
+    .d9{animation-delay:.9s} .d10{animation-delay:1.0s} .d11{animation-delay:1.1s} .d12{animation-delay:1.2s}
+    .d13{animation-delay:1.3s} .d14{animation-delay:1.4s} .d15{animation-delay:1.5s} .d16{animation-delay:1.6s}
+    .d17{animation-delay:1.7s} .d18{animation-delay:1.8s} .d19{animation-delay:1.9s} .d20{animation-delay:2.0s}
+    .blink { animation: blink 1.2s step-end infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .scan { animation: scan 3s ease-in-out infinite; }
+    @keyframes scan { 0%,100%{opacity:.05} 50%{opacity:.15} }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal,.blink,.scan { animation: none; } .reveal{opacity:1} .scan{opacity:.08}
+    }
+  </style>
+
+  <defs>
+    <pattern id="scanlines-d" width="1000" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1000" height="2" fill="var(--bone)" opacity=".03"/>
+    </pattern>
+  </defs>
+
+  <rect x="100" y="10" width="800" height="400" fill="none" stroke="var(--rule)" stroke-width="1" rx="2" class="reveal d1"/>
+  <rect x="100" y="10" width="800" height="400" fill="url(#scanlines-d)" class="scan"/>
+
+  <g class="mono" fill="var(--bone)" font-size="6" letter-spacing="0">
+    <text x="120" y="37.1" class="reveal d2" xml:space="preserve">░░                                                                                                                                             </text>
+    <text x="120" y="44.2" class="reveal d3" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="51.3" class="reveal d4" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="58.4" class="reveal d5" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="65.5" class="reveal d6" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="72.6" class="reveal d7" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="79.7" class="reveal d8" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="86.8" class="reveal d9" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="93.9" class="reveal d10" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="101.1" class="reveal d11" xml:space="preserve">░                     ░░▒▒▒░▒▒░░░░░░                                                                                                           </text>
+    <text x="120" y="108.2" class="reveal d12" xml:space="preserve">░                 ░▒░░░▓▒░▒░▒▒▓▒░▓▒▓▓░░░░            ▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▒▓▓▓▓█                                              </text>
+    <text x="120" y="115.3" class="reveal d13" xml:space="preserve">░         ░ ░░░░▒▒▒░░▒ ░░░░░░░▒▓▒░▒▓▒▒▒▒░░░▓▒▒▒░░░░  ▒ ░░░░░░░░░░                        ▓▒▒▓▓▓▓▓░                                             </text>
+    <text x="120" y="122.4" class="reveal d14" xml:space="preserve">░     ░░▓▒░░▒░░▒░▒▓▒▓▒▒█▒░░▓░░░░░░▒▒▓▓░  ░▓░░▓▒░▓▒▒█▒█▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█                                              </text>
+    <text x="120" y="129.5" class="reveal d15" xml:space="preserve">░ ░░▓░░░▒░▒▓░▒▒▒▒▓▒▓▓▓█▒▓▓▓▓▓░░░░░░▒▒░▒░░░░░░▒░▒░░░░▒█▓█░                                       █                                              </text>
+    <text x="120" y="136.6" class="reveal d16" xml:space="preserve">░▒░▒▒▒▒▓▓░▒▓▒▒▒▒█▓█▓█▓▓░▓█▓██▓░▒▓░░░░▒░▓░░░░▒░░░░░░░▒▓░░▓▒░░░                                   █                                              </text>
+    <text x="120" y="143.7" class="reveal d17" xml:space="preserve">░▒▒░▓░▒░▓▒▒▒▓▓█▓█▓▓▒▓██▓█▒█▓▒█▓▓▓▒░  ░░▒▒░▒░▓▒░█▒▒▒░░█░░▒▒▒▓▓█▓░                                █                                   ░▒▒▒▒▒░░░░░</text>
+    <text x="120" y="150.8" class="reveal d18" xml:space="preserve">░▒▒░░░▒▒▒░▒▒▓▓█▓▒▓▓█▓██▓▓▓▓██▓▓▓▓░░░░░░░▓░░░██▓█▓▒▒█░▓░░▒▒▓▒░▒▒▒▓█░                             █               ░     ░░ ░░░░░░░░░ ▓░░░░░░▓░░░░</text>
+    <text x="120" y="157.9" class="reveal d19" xml:space="preserve">░▒▒░░▒▒▒▒▒▓▓███▓▓██████▓▓██░░ ░▒░▒▓░░░░░░░▒░░▓█▓█▓█████▓█▓░░░▒▒▒▒██░                            █         ░░░░░░░░░░░▒░░▒ ░░░░░░░▒░▒▒░▒▒▒▒▒▒░░▒</text>
+    <text x="120" y="165.0" class="reveal d20" xml:space="preserve">▒▒▓▒▒▒░▓▒▒▓▒▓██▓█▓██████░░     ░░░▒▒▓░█▓░░▒░▒▓██▓▓▒▒▓████▓██▒██▓░░▒█░░                ░  ░      █   ░ ░░▒░░░░▒░▒░▒░░░░░░▒░▓▒▓▒░░▒▒░▒▒░▒░▒▒▓▓░▒▒</text>
+    <text x="120" y="172.1" class="reveal d20" xml:space="preserve">▓▒▒▓▓▒▓█▓██▓███▓██████░          ░░▓▒▓▓▓░▒░▒▒▒▒▓█░░██████▓███▓██▓▓░░▓▓            ▒░░░▒▒░░░▒▒░░░█░░░░░▒░░▒░▒░░▒░░░▒░░▒▒▒▒▒▓▒▓▓█▓▒▒▒▓▓░▒▓░▒░▒░░░</text>
+    <text x="120" y="179.2" class="reveal d20" xml:space="preserve">▓▓▒▓▒█▓▓█▓█▓██████▓█▒░              ░ ░░▒▒▒░░░░░░▒██▓██░█▓██▓▓█▓▓░▓▓▒▒▓   ░░░░░░▒▒░▒▒▓█░░▒░▓▒   █░░░▒▒▒▓▒░░░▒░░▒░▒▒▓▒██▓▓▒░▓▒▓▒▓▓▓▓▓░▒▒▒▒▒▒▒░░▒</text>
+    <text x="120" y="186.3" class="reveal d20" xml:space="preserve">█▓█▓▓█▓▒█▓████████▒                     ░░ ░░▒▒▓▓▓░░▓██░ ░██▓████ ░▒▒▒█░  ░░▓█▓▒▓█▒███▒▓▓▓█▓▓░░▒█ ░▓██▒░░ ░▓▒▒░░░░▓▒█▓▓██▓█▒▓▓▒▓░▓▒▒░▒▓▓░▒▓▒░░▓</text>
+    <text x="120" y="193.4" class="reveal d20" xml:space="preserve">▓▓▓▓███████▓████░                              ░▒░▒░▒▓█░ ░▒███▓██▒░ ░▓▓█░                   ░█▓▒██░░▓░░░░▒░▓▒░░▒▒▒▓███▓██▓▓▓█▓▒▓▒▒▒▒▓▓▓█▒▒░▒▓▓░</text>
+    <text x="120" y="200.5" class="reveal d20" xml:space="preserve">██▓██████████▒░                                  ▒▒▒▓███▒  ░██▓███░                           ░▒██▓░░░░░░░▒█▒▓▒▒▓███▓▓▓▓██▓▓███████▒▓▒▒▒▓▓▓▓▒▒▓</text>
+    <text x="120" y="207.6" class="reveal d20" xml:space="preserve">█████████▓░                                     ░▒▓███▒▓░  ░██████░                         ░░▒░█░▒░▒▓▓▓▓▓▓███▓██▓▓▓███▓██▓▓█▓█████▓▓▓██▓▓▓▒█▓▓</text>
+    <text x="120" y="214.7" class="reveal d20" xml:space="preserve">██▒██▒░ ░                                       ░ ▓░ ▓░░    ░███▓█▒                      ░░█▒░░▒█▓▒██▓▓█▓█████▒▓█▓███████▒    ░ ░░▒█▓▓██▓██▓▒▓▓</text>
+    <text x="120" y="221.8" class="reveal d20" xml:space="preserve">██▒░░░                                              ░▓       ░░░ ░                     ░▒▒░░░▒▒▒█▓█▓█▓░▒░▒▓░▓██████▓▓▓▓░          ░  ░ ░░░▒▒░▒▓</text>
+    <text x="120" y="228.9" class="reveal d20" xml:space="preserve">░                                                    ████████████████████████████████████████████▒▓▓▓██░░░░▒█░░▓▓▓█▓▒                          </text>
+    <text x="120" y="236.1" class="reveal d20" xml:space="preserve">░                                                                                         ░░▒▓▓░▓▓▓▓█▒░░▓██████▓░░░                            </text>
+    <text x="120" y="243.2" class="reveal d20" xml:space="preserve">░                                                                                        ░▒░▒▓█░░██░░░░░▒█▒                                    </text>
+    <text x="120" y="250.3" class="reveal d20" xml:space="preserve">░                                                                                         ░▒▓█▓▒░▓█░░▒▓██▓░                                    </text>
+    <text x="120" y="257.4" class="reveal d20" xml:space="preserve">░                                                                                        ░░░▓█░▒▓▓░  ▒▒░█░                                     </text>
+    <text x="120" y="264.5" class="reveal d20" xml:space="preserve">░                                                                                        ░░░▒█▒░▒▒   ▒▒░▒░                                     </text>
+    <text x="120" y="271.6" class="reveal d20" xml:space="preserve">░                                                                                         ░▒▓▓▓█▒░    ░░░                                      </text>
+    <text x="120" y="278.7" class="reveal d20" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="285.8" class="reveal d20" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="292.9" class="reveal d20" xml:space="preserve">░                                                                                                                                              </text>
+    <text x="120" y="300.0" class="reveal d20" xml:space="preserve">░                                                                                                                                              </text>
+  </g>
+
+  <text class="mono reveal d20" x="500" y="320" font-size="10" fill="var(--muted)" letter-spacing="3" text-anchor="middle">「 HUMAN AFTER ALL 🤷 」</text>
+  <text class="mono reveal d20" x="500" y="345" font-size="9" fill="var(--dim)" letter-spacing="2" text-anchor="middle">where technology meets creation — the spark between two worlds</text>
+  <text class="mono blink" x="500" y="375" font-size="12" fill="var(--accent)" text-anchor="middle">█</text>
+</svg>
